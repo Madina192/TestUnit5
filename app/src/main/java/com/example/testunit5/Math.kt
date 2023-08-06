@@ -1,13 +1,11 @@
 package com.example.testunit5
 
-import androidx.core.text.isDigitsOnly
 import java.text.NumberFormat
 import java.text.ParsePosition
 
 class Math {
     fun add(a: String, b: String): String {
-        var result = ""
-        result = if (a.isEmpty() || b.isEmpty()) {
+        var result = if (a.isEmpty() || b.isEmpty()) {
             "You didn't enter anything!"
         } else if (a.contains("..") || b.contains("..")) {
             "You entered two points!"
@@ -29,8 +27,7 @@ class Math {
     }
 
     fun divide(a: String, b: String): String {
-        var result = ""
-        result = if (b == "0") {
+        var result = if (b == "0") {
             "You can't divide by 0!"
         } else if (a.isEmpty() || b.isEmpty()) {
             "You didn't enter anything!"
