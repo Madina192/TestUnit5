@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TestUnit5</string>
+    <string name="first">first</string>
+    <string name="second">second</string>
+    <string name="add">add</string>
+    <string name="result">result</string>
+    <string name="divide">divide</string>
 </resources>
